@@ -9,25 +9,38 @@ async function main() {
     let tab = tabs[0];
     await gotogoogle(tab);
     await covidcase(tab);
+    await delay(4000);
     await testing(tab);
+    await delay(4000);
     await gotogoogle(tab);
     await tab.waitForSelector('span[title="Symptoms"]');
     await tab.click('span[title="Symptoms"]');
-    await generic(tab, "Symptoms");
+    await symptoms(tab, "Symptoms");
+    await delay(2000);
     await tab.click('span[title="Prevention"]');
-    await generic(tab, "Prevention");
+    await prevention(tab);
+    await delay(4000);
     await treatments(tab);
+    await delay(4000);
     await news(tab); 
+    await delay(4000);
     await coping(tab);
 }
 async function gotogoogle(tab) {
     await tab.goto("https://www.google.com/");
-    await tab.type(".gLFyf.gsfi", "Coronavirus cases in India");
+    await tab.type(".gLFyf.gsfi", "Coronavirus");
     await tab.keyboard.press("Enter");
 }
+function delay(time) {
+    return new Promise(function(resolve) { 
+        setTimeout(resolve, time)
+    });
+ }
 async function covidcase(tab) {
     let covidcases = [];
     await tab.waitForNavigation({ waitUntil: "networkidle2" });
+    await tab.click('span[title="Statistics"]');
+    await tab.waitForSelector("tbody tr.viwUIc",{visible:true});
     await tab.evaluate(() => {
         window.scrollBy(0, 1000);
     });
@@ -94,21 +107,48 @@ async function testing(tab) {
         }
     }
 }
-async function generic(tab, word) {
-    await tab.evaluate(() => {
-        window.scrollBy(0, 500);
-    });
-    await tab.waitForSelector(".bVNaN .PZPZlf");
-    let data = await tab.$$(".bVNaN .PZPZlf");
-    fs.writeFileSync(word + ".txt", word);
+async function symptoms(tab, word) {
+    // await tab.waitForSelector("div.Z0mB9b div.PZPZlf span");
+    await tab.waitForNavigation({waitUntil:"networkidle2"});
+    let data = await tab.$$("div.Z0mB9b div.PZPZlf span");
     let str="";
-    for (let i = 0; i < data.length; i++) {
+    for (let i = 13; i < data.length; i++) {
         let variable = await tab.evaluate(function (ele) {
             return ele.innerText;
         }, data[i]);
-        str+=(i+1)+". "+variable+"\n\n";
+        if(i==14||i==18||i==26)
+        str+="\n* "+variable+"\n";
+        else if(i>=30)
+        str+="\n# "+variable+"\n";
+        else
+        str+="=> "+variable+"\n";
         fs.writeFileSync(word + ".txt","=> "+word+"\n\n"+str);
     }
+}
+async function prevention(tab)
+{
+    await tab.evaluate(() => {
+        window.scrollBy(0, 500);
+    });
+    let data=await tab.$$(".bVNaN .PZPZlf");
+    let str="";
+    for(let i=12;i<data.length;i++)
+    {
+        let line= await tab.evaluate(function (ele) {
+            return ele.innerText;
+        }, data[i]);
+        if(i==13||i==22)
+        {
+            str+="\n\n* "+line;
+        }
+        else if(i==21)
+        {
+            str+="\n\n"+line;
+        }
+        else
+        str+="\n=> "+line;
+    }
+    fs.writeFileSync("Prevention.txt","=>Prevention\n"+str);
 }
 async function treatments(tab)
 {
@@ -119,36 +159,27 @@ async function treatments(tab)
     let heading1=await tab.evaluate(function(ele)
     {
         return ele.innerText;
-    },headings[0]);
-    str+=heading1+"\n\n";
+    },headings[2]);
+    str+=heading1+"\n";
     let data=await tab.$$(".gy6Qzb.oNjtBb.V1sL5c .BpuzOe .PZPZlf");
-    for(let i=0;i<16;i++)
+    for(let i=28;i<data.length-1;i++)
     {
         let line=await tab.evaluate(function(ele){
             return ele.innerText;
         },data[i]);
-        if(i==0)
+        if(i==28||i==40||i==45||i==50)
         {
-            str+="* "+line+"\n\n";
+            str+="\n* "+line+"\n";
+        }
+        else if(i==44)
+        {
+            let heading2=await tab.evaluate(function(ele){
+                return ele.innerText;
+            },headings[3]);
+            str+="\n"+heading2+"\n";
         }
         else
-        str+=i+". "+line+"\n";
-    }
-    let heading2=await tab.evaluate(function(ele){
-        return ele.innerText;
-    },headings[1]);
-    str+="\n"+heading2+"\n\n";
-    for(let i=17;i<data.length-1;i++)
-    {
-        let line=await tab.evaluate(function(ele){
-            return ele.innerText;
-        },data[i]);
-        if(i==17)
-        {
-            str+="* "+line+"\n\n";
-        }
-        else
-        str+=(i-17)+". "+line+"\n";
+        str+="=> "+line+"\n";
     }
     fs.writeFileSync("Treatments.txt","=> Treatments\n\n"+str);
 }
