@@ -106,5 +106,17 @@
         "Info": "Not available",
         "Requirement": "Appointment required·",
         "Limit": "Limited to certain patients"
+    },
+    {
+        "Name": "Bhagat Hospital",
+        "Info": "Private hospital · D-2/48-49, PT Vishnu Datt Marg · 011 4510 2030",
+        "Requirement": "Appointment required·",
+        "Limit": "Limited to certain patients"
+    },
+    {
+        "Name": "Deen Dayal Upadhyay Hospital",
+        "Info": "General hospital · Shaheed Mangal Pandey Marg · 011 2549 4402",
+        "Requirement": "Appointment required·",
+        "Limit": "Limited to certain patients"
     }
 ]
