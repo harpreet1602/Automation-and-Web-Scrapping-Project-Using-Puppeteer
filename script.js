@@ -9,22 +9,24 @@ async function main() {
     let tab = tabs[0];
     await gotogoogle(tab);
     await covidcase(tab);
-    await delay(4000);
+    //await delay(4000);
     await testing(tab);
-    await delay(4000);
+   // await delay(4000);
     await gotogoogle(tab);
     await tab.waitForSelector('span[title="Symptoms"]');
     await tab.click('span[title="Symptoms"]');
     await symptoms(tab, "Symptoms");
-    await delay(2000);
+   // await delay(4000);
     await tab.click('span[title="Prevention"]');
     await prevention(tab);
-    await delay(4000);
+    //await delay(6000);
     await treatments(tab);
-    await delay(4000);
+   // await delay(5000);
     await news(tab); 
-    await delay(4000);
+   // await delay(5000);
     await coping(tab);
+    //await delay(5000);
+    await vaccineCenters(tab);
 }
 async function gotogoogle(tab) {
     await tab.goto("https://www.google.com/");
@@ -127,9 +129,6 @@ async function symptoms(tab, word) {
 }
 async function prevention(tab)
 {
-    await tab.evaluate(() => {
-        window.scrollBy(0, 500);
-    });
     let data=await tab.$$(".bVNaN .PZPZlf");
     let str="";
     for(let i=12;i<data.length;i++)
@@ -189,7 +188,6 @@ async function news(tab)
     await tab.waitForSelector(".JheGif.nDgy9d");
     let totalnews=await tab.$$(".JheGif.nDgy9d");
     let str="";
-    fs.writeFileSync("news.txt","News\n\n");
     for(let i=0;i<totalnews.length;i++)
     {
         let news=await tab.evaluate(function(ele){
@@ -203,14 +201,9 @@ async function coping(tab)
 {
     await tab.click('span[title="Coping"]');
     await tab.waitForSelector(".juDAUd .krw0Mb");
-    let heading=await tab.$$(".juDAUd .krw0Mb");  //coping
-    let ans="";
-    let heading1=await tab.evaluate(function(ele){
-        return ele.innerText;
-    },heading[5]);
-    ans+="=> "+heading1+"\n\n";
+    let ans="=> Coping\n\n";
     let general=await tab.$$(".bXATZd.j29TPc .PZPZlf");
-    for(let i=3;i<general.length;i++)
+    for(let i=0;i<general.length;i++)
     {
         let line=await tab.evaluate(function(ele)
         {
@@ -220,13 +213,80 @@ async function coping(tab)
     }
     ans=ans+"\n";
     let subheadings=await tab.$$(".R7GtFd.PZPZlf.AioC1");
-    for(let i=5;i<subheadings.length;i++)
+    for(let i=0;i<subheadings.length;i++)
     {
         let subheading=await tab.evaluate(function(ele){
             return ele.innerText;
         },subheadings[i]);
-        ans+=(i-4) + ". "+subheading+"\n";
+        ans+=(i+1) + ". "+subheading+"\n";
     }
     fs.writeFileSync("Coping.txt",ans);
+}
+async function vaccineCenters(tab)
+{
+    await tab.click("input.gLFyf.gsfi");
+    await tab.keyboard.down("Control");
+    await tab.keyboard.press("A");
+    await tab.keyboard.press("X");
+    await tab.keyboard.up("Control");
+    await tab.type("input.gLFyf.gsfi","vaccine centre near me");
+    await tab.keyboard.press("Enter");
+    await tab.waitForSelector(".MXl0lf.mtqGb.EhIML .wUrVib");
+    let clickdata=await tab.$(".MXl0lf.mtqGb.EhIML .wUrVib");
+    await tab.evaluate(function(ele){
+        ele.click();
+    },clickdata);
+    await tab.waitForSelector("div.dbg0pd");
+    let names=await tab.$$("div.dbg0pd");
+    let info=await tab.$$("div.f5Sf1");
+    let access=await tab.$$("div.dXnVAb");
+    let vaccineCenters=[];
+    for(let i=0;i<names.length;i++)
+    {
+        let name=await tab.evaluate(function(ele){
+            return ele.innerText;
+        },names[i]);
+        let information;
+        if(i==1||i==15||i==17)
+        information="Not available";
+        else if(i>=2 &&i<=14)
+        {
+            information=await tab.evaluate(function(ele){
+                return ele.innerText;
+            },info[i-1]);    
+        }
+        else if(i==16)
+        {
+            information=await tab.evaluate(function(ele){
+                return ele.innerText;
+            },info[i-2]);
+        }
+        else if(i>=18)
+        {
+            information=await tab.evaluate(function(ele){
+                return ele.innerText;
+            },info[i-3]);
+        }
+        else if(i==0)
+        {
+        information=await tab.evaluate(function(ele){
+            return ele.innerText;
+        },info[i]);
+        }
+        let req=await tab.evaluate(function(ele){
+            return ele.innerText;
+        },access[i]);
+        let arr=req.split("\n");
+        let requirement=arr[0];
+        let limit=arr[1];
+        vaccineCenters.push({
+            "Name":name,
+            "Info":information,
+            "Requirement":requirement,
+            "Limit":limit
+        });
+        if(i==names.length-1)
+        fs.writeFileSync("VaccineCenters.json",JSON.stringify(vaccineCenters));
+    }
 }
 main();
