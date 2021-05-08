@@ -207,10 +207,10 @@ async function coping(tab)
     let ans="";
     let heading1=await tab.evaluate(function(ele){
         return ele.innerText;
-    },heading[2]);
+    },heading[5]);
     ans+="=> "+heading1+"\n\n";
     let general=await tab.$$(".bXATZd.j29TPc .PZPZlf");
-    for(let i=0;i<general.length;i++)
+    for(let i=3;i<general.length;i++)
     {
         let line=await tab.evaluate(function(ele)
         {
@@ -220,12 +220,12 @@ async function coping(tab)
     }
     ans=ans+"\n";
     let subheadings=await tab.$$(".R7GtFd.PZPZlf.AioC1");
-    for(let i=0;i<subheadings.length;i++)
+    for(let i=5;i<subheadings.length;i++)
     {
         let subheading=await tab.evaluate(function(ele){
             return ele.innerText;
         },subheadings[i]);
-        ans+=(i+1) + ". "+subheading+"\n";
+        ans+=(i-4) + ". "+subheading+"\n";
     }
     fs.writeFileSync("Coping.txt",ans);
 }

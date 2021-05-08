@@ -1,1 +1,122 @@
-[{"name":"Sequence Referral Laboratories Pvt. Ltd.","information":"Diagnostic center · Local Shopping Complex, Krishna Bhawan, 1st Floor, Plot # 7-8, A-3 · 098100 37653","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Mata Chanan Devi Hospital","information":"General hospital · c1, Lal Sai Mandir Marg · 011 4558 2000","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Aarogya Path Care","information":"Medical laboratory · 1/4 Single Storey, main, Najafgarh Rd, near vishal mega mart · 099998 57513","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Star Imaging & Path Lab (Head Office) - Tilak Nagar, Delhi","information":"Diagnostic center · 4B/4, opposite Metro Pillar Number 497 · 011 4560 2200","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Noble Diagnostic Centre","information":"Diagnostic center · Wz-409c, Janak Puri, Opposite D D U Hospital Main Gate, Shaheed Mangal Pandey Marg · 011 2812 6230","eligibility":"Testing for all patients·","mode":"Private"},{"name":"City X Ray & Scan Clinic Pvt. Ltd.","information":"Diagnostic center · 5A, 34, Najafgarh Rd, near Haldiram Restaurant · 011 4725 2000","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Dept of Lab Medicine HCMCT, Manipal Hospital","information":"Medical laboratory · Sector 6, adjoining MTNL building, Main Rd · 011 4967 4967","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Aakash Path Lab, Sector 3, Dwarka","information":"Medical laboratory · Aakash Healthcare & Super speciality Hospital, Rd Number 201","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Genequest Inc.","information":"Laboratory · RZ-7, SB, Raja Puri, Main Road, opposite SBI Bank","eligibility":"Testing for all patients·","mode":"Private"},{"name":"OTABU PATH LAB - RT PCR Testing Approved by ICMR","information":"Medical laboratory · Pillar No: 713, Plot No 10, Main Najafgarh Rd · 099908 62225","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Divya Prastha Hospital","information":"Hospital · Main Road Block A, opp. Bagh Wala School · 011 2536 5960","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Employees' State Insurance Model Hospital","information":"Government hospital · Ring Rd · 011 2510 0664","eligibility":"Testing for all patients·","mode":"Government"},{"name":"Base Hospital Delhi Cantt","information":"Military hospital · Hospital Rd","eligibility":"Testing for all patients·","mode":"Government"},{"name":"Dr Lalchandani Labs - Punjabi Bagh","information":"Diagnostic center · 19 C, Club Rd · 080106 89689","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Prognosis Laboratories","information":"Diagnostic center · 515, 516, behind Gupta Properties, Close to Welcome Hotel (ITC · 081301 92290","eligibility":"Testing for all patients·","mode":"Private"},{"name":"ICMR-National Institute of Malaria Research","information":"Research institute011 2530 7103","eligibility":"Testing for all patients·","mode":"Government"},{"name":"Venkateshwar Hospital","information":"Private hospital011 4855 5555","eligibility":"Testing for all patients·","mode":"Private"},{"name":"FICCI Research and Analysis Centre - Molecular Laboratory","information":"Laboratory · Plot 2A","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Lipomic Laboratory, Lipomic Healthcare Pvt. Ltd.","information":"Laboratory · B-57, First Floor","eligibility":"Testing for all patients·","mode":"Private"},{"name":"Dept of Laboratory Services Action Cancer Hospital","information":"Medical laboratory · FC-34 · 011 4922 2222","eligibility":"Testing for all patients·","mode":"Private"}]
+[
+    {
+        "name": "Sequence Referral Laboratories Pvt. Ltd.",
+        "information": "Diagnostic center · Local Shopping Complex, Krishna Bhawan, 1st Floor, Plot # 7-8, A-3 · 098100 37653",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Mata Chanan Devi Hospital",
+        "information": "General hospital · c1, Lal Sai Mandir Marg · 011 4558 2000",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Aarogya Path Care",
+        "information": "Medical laboratory · 1/4 Single Storey, main, Najafgarh Rd, near vishal mega mart · 099998 57513",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Star Imaging & Path Lab (Head Office) - Tilak Nagar, Delhi",
+        "information": "Diagnostic center · 4B/4, opposite Metro Pillar Number 497 · 011 4560 2200",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Noble Diagnostic Centre",
+        "information": "Diagnostic center · Wz-409c, Janak Puri, Opposite D D U Hospital Main Gate, Shaheed Mangal Pandey Marg · 011 2812 6230",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "City X Ray & Scan Clinic Pvt. Ltd.",
+        "information": "Diagnostic center · 5A, 34, Najafgarh Rd, near Haldiram Restaurant · 011 4725 2000",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Dept of Lab Medicine HCMCT, Manipal Hospital",
+        "information": "Medical laboratory · Sector 6, adjoining MTNL building, Main Rd · 011 4967 4967",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Genequest Inc.",
+        "information": "Laboratory · RZ-7, SB, Raja Puri, Main Road, opposite SBI Bank",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Dr Seth’s path lab, Divyaprastha hospital,",
+        "information": "Medical laboratory · Main Road Block A, opp. Bagh Wala School",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Aakash Path Lab, Sector 3, Dwarka",
+        "information": "Medical laboratory · Aakash Healthcare & Super speciality Hospital, Rd Number 201",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "OTABU PATH LAB - RT PCR Testing Approved by ICMR",
+        "information": "Medical laboratory · Pillar No: 713, Plot No 10, Main Najafgarh Rd · 099908 62225",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Base Hospital Delhi Cantt",
+        "information": "Military hospital · Hospital Rd",
+        "eligibility": "Testing for all patients·",
+        "mode": "Government"
+    },
+    {
+        "name": "ICMR-National Institute of Malaria Research",
+        "information": "Research institute011 2530 7103",
+        "eligibility": "Testing for all patients·",
+        "mode": "Government"
+    },
+    {
+        "name": "Employees' State Insurance Model Hospital",
+        "information": "Government hospital · Ring Rd · 011 2510 0664",
+        "eligibility": "Testing for all patients·",
+        "mode": "Government"
+    },
+    {
+        "name": "Dr Lalchandani Labs - Punjabi Bagh",
+        "information": "Diagnostic center · 19 C, Club Rd · 080106 89689",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Prognosis Laboratories",
+        "information": "Diagnostic center · 515, 516, behind Gupta Properties, Close to Welcome Hotel (ITC · 081301 92290",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Venkateshwar Hospital",
+        "information": "Private hospital011 4855 5555",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "FICCI Research and Analysis Centre - Molecular Laboratory",
+        "information": "Laboratory · Plot 2A",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Lipomic Laboratory, Lipomic Healthcare Pvt. Ltd.",
+        "information": "Laboratory · B-57, First Floor",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Dept of Laboratory Services Action Cancer Hospital",
+        "information": "Medical laboratory · FC-34 · 011 4922 2222",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    }
+]

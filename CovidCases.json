@@ -1,1 +1,224 @@
-[{"locations":"Delhi","cases":"12.7L","recovered":"11.6L","deaths":"18,398"},{"locations":"Maharashtra","cases":"49.4L","recovered":"42.3L","deaths":"73,515"},{"locations":"Karnataka","cases":"17.9L","recovered":"12.6L","deaths":"17,212"},{"locations":"Kerala","cases":"17.9L","recovered":"13.9L","deaths":"5,628"},{"locations":"Uttar Pradesh","cases":"14.3L","recovered":"11.5L","deaths":"14,501"},{"locations":"Tamil Nadu","cases":"13L","recovered":"11.5L","deaths":"14,974"},{"locations":"Andhra Pradesh","cases":"12.3L","recovered":"10.4L","deaths":"8,446"},{"locations":"West Bengal","cases":"9.35L","recovered":"8L","deaths":"11,964"},{"locations":"Chhattisgarh","cases":"8.16L","recovered":"6.75L","deaths":"9,950"},{"locations":"Rajasthan","cases":"7.03L","recovered":"4.99L","deaths":"5,182"},{"locations":"Gujarat","cases":"6.46L","recovered":"4.9L","deaths":"8,035"},{"locations":"Madhya Pradesh","cases":"6.37L","recovered":"5.43L","deaths":"6,160"},{"locations":"Haryana","cases":"5.74L","recovered":"4.53L","deaths":"5,137"},{"locations":"Bihar","cases":"5.54L","recovered":"4.36L","deaths":"3,077"},{"locations":"Odisha","cases":"5L","recovered":"4.23L","deaths":"2,121"},{"locations":"Telangana","cases":"4.82L","recovered":"4.05L","deaths":"2,625"},{"locations":"Punjab","cases":"4.16L","recovered":"3.4L","deaths":"9,979"},{"locations":"Assam","cases":"2.78L","recovered":"2.43L","deaths":"1,531"},{"locations":"Jharkhand","cases":"2.7L","recovered":"2.06L","deaths":"3,479"},{"locations":"Uttarakhand","cases":"2.2L","recovered":"1.54L","deaths":"3,293"},{"locations":"Jammu and Kashmir","cases":"2.02L","recovered":"1.57L","deaths":"2,562"},{"locations":"Himachal Pradesh","cases":"1.19L","recovered":"89,236","deaths":"1,737"},{"locations":"Goa","cases":"1.08L","recovered":"77,014","deaths":"1,501"},{"locations":"Puducherry","cases":"66,627","recovered":"53,296","deaths":"901"},{"locations":"Chandigarh","cases":"47,552","recovered":"38,591","deaths":"541"},{"locations":"Chandigarh","cases":"47,552","recovered":"38,591","deaths":"541"},{"locations":"Tripura","cases":"36,849","recovered":"34,153","deaths":"404"},{"locations":"Manipur","cases":"33,733","recovered":"30,295","deaths":"447"},{"locations":"Arunachal Pradesh","cases":"19,634","recovered":"17,717","deaths":"59"},{"locations":"Meghalaya","cases":"18,630","recovered":"16,086","deaths":"193"},{"locations":"Nagaland","cases":"15,271","recovered":"12,905","deaths":"121"},{"locations":"Ladakh","cases":"14,909","recovered":"13,326","deaths":"151"},{"locations":"Sikkim","cases":"9,183","recovered":"6,769","deaths":"158"},{"locations":"Dadra and Nagar Haveli and Daman and Diu","cases":"8,502","recovered":"6,917","deaths":"4"},{"locations":"Mizoram","cases":"7,147","recovered":"5,351","deaths":"17"},{"locations":"Andaman and Nicobar Islands","cases":"6,255","recovered":"5,958","deaths":"72"},{"locations":"Lakshadweep","cases":"3,528","recovered":"+152","deaths":"36,847"}]
+[
+    {
+        "locations": "Delhi",
+        "cases": "12.9L",
+        "recovered": "+19,832",
+        "deaths": "62,324"
+    },
+    {
+        "locations": "Maharashtra",
+        "cases": "50L",
+        "recovered": "+54,022",
+        "deaths": "37,355"
+    },
+    {
+        "locations": "Karnataka",
+        "cases": "18.4L",
+        "recovered": "+48,781",
+        "deaths": "20,052"
+    },
+    {
+        "locations": "Kerala",
+        "cases": "18.2L",
+        "recovered": "+38,460",
+        "deaths": "40,894"
+    },
+    {
+        "locations": "Uttar Pradesh",
+        "cases": "14.5L",
+        "recovered": "+27,763",
+        "deaths": "5,800"
+    },
+    {
+        "locations": "Tamil Nadu",
+        "cases": "13.2L",
+        "recovered": "+26,465",
+        "deaths": "17,292"
+    },
+    {
+        "locations": "Andhra Pradesh",
+        "cases": "12.5L",
+        "recovered": "+17,188",
+        "deaths": "21,264"
+    },
+    {
+        "locations": "West Bengal",
+        "cases": "9.54L",
+        "recovered": "+19,216",
+        "deaths": "9,058"
+    },
+    {
+        "locations": "Chhattisgarh",
+        "cases": "8.3L",
+        "recovered": "+13,628",
+        "deaths": "23,404"
+    },
+    {
+        "locations": "Rajasthan",
+        "cases": "7.21L",
+        "recovered": "+18,231",
+        "deaths": "7,494"
+    },
+    {
+        "locations": "Gujarat",
+        "cases": "6.58L",
+        "recovered": "+12,064",
+        "deaths": "8,030"
+    },
+    {
+        "locations": "Madhya Pradesh",
+        "cases": "6.49L",
+        "recovered": "+11,708",
+        "deaths": "7,464"
+    },
+    {
+        "locations": "Haryana",
+        "cases": "5.88L",
+        "recovered": "+13,867",
+        "deaths": "18,397"
+    },
+    {
+        "locations": "Bihar",
+        "cases": "5.67L",
+        "recovered": "+13,466",
+        "deaths": "4,535"
+    },
+    {
+        "locations": "Odisha",
+        "cases": "5.12L",
+        "recovered": "+12,238",
+        "deaths": "9,872"
+    },
+    {
+        "locations": "Telangana",
+        "cases": "4.87L",
+        "recovered": "+5,559",
+        "deaths": "11,741"
+    },
+    {
+        "locations": "Punjab",
+        "cases": "4.25L",
+        "recovered": "+8,297",
+        "deaths": "12,322"
+    },
+    {
+        "locations": "Assam",
+        "cases": "2.83L",
+        "recovered": "+5,626",
+        "deaths": "7,957"
+    },
+    {
+        "locations": "Jharkhand",
+        "cases": "2.76L",
+        "recovered": "+5,973",
+        "deaths": "6,622"
+    },
+    {
+        "locations": "Uttarakhand",
+        "cases": "2.3L",
+        "recovered": "+9,642",
+        "deaths": "15,755"
+    },
+    {
+        "locations": "Jammu and Kashmir",
+        "cases": "2.07L",
+        "recovered": "+5,443",
+        "deaths": "12,753"
+    },
+    {
+        "locations": "Himachal Pradesh",
+        "cases": "1.23L",
+        "recovered": "+4,177",
+        "deaths": "13,361"
+    },
+    {
+        "locations": "Goa",
+        "cases": "1.12L",
+        "recovered": "+4,195",
+        "deaths": "43,582"
+    },
+    {
+        "locations": "Puducherry",
+        "cases": "68,373",
+        "recovered": "+1,746",
+        "deaths": "38,993"
+    },
+    {
+        "locations": "Chandigarh",
+        "cases": "48,442",
+        "recovered": "+890",
+        "deaths": "37,319"
+    },
+    {
+        "locations": "Chandigarh",
+        "cases": "48,442",
+        "recovered": "+890",
+        "deaths": "37,319"
+    },
+    {
+        "locations": "Tripura",
+        "cases": "37,208",
+        "recovered": "+359",
+        "deaths": "9,369"
+    },
+    {
+        "locations": "Manipur",
+        "cases": "34,333",
+        "recovered": "+600",
+        "deaths": "11,161"
+    },
+    {
+        "locations": "Arunachal Pradesh",
+        "cases": "19,802",
+        "recovered": "+168",
+        "deaths": "14,222"
+    },
+    {
+        "locations": "Meghalaya",
+        "cases": "18,927",
+        "recovered": "+297",
+        "deaths": "6,134"
+    },
+    {
+        "locations": "Nagaland",
+        "cases": "15,580",
+        "recovered": "+309",
+        "deaths": "5,725"
+    },
+    {
+        "locations": "Ladakh",
+        "cases": "15,023",
+        "recovered": "+114",
+        "deaths": "49,112"
+    },
+    {
+        "locations": "Sikkim",
+        "cases": "9,451",
+        "recovered": "+268",
+        "deaths": "11,136"
+    },
+    {
+        "locations": "Dadra and Nagar Haveli and Daman and Diu",
+        "cases": "8,596",
+        "recovered": "+94",
+        "deaths": "12,181"
+    },
+    {
+        "locations": "Mizoram",
+        "cases": "7,382",
+        "recovered": "+235",
+        "deaths": "4,893"
+    },
+    {
+        "locations": "Andaman and Nicobar Islands",
+        "cases": "6,311",
+        "recovered": "+56",
+        "deaths": "13,888"
+    },
+    {
+        "locations": "Lakshadweep",
+        "cases": "3,629",
+        "recovered": "+152",
+        "deaths": "38,694"
+    }
+]
