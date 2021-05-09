@@ -42,14 +42,20 @@
         "mode": "Private"
     },
     {
-        "name": "Aakash Path Lab, Sector 3, Dwarka",
-        "information": "Medical laboratory · Aakash Healthcare & Super speciality Hospital, Rd Number 201",
+        "name": "Genequest Inc.",
+        "information": "Laboratory · RZ-7, SB, Raja Puri, Main Road, opposite SBI Bank",
         "eligibility": "Testing for all patients·",
         "mode": "Private"
     },
     {
-        "name": "Genequest Inc.",
-        "information": "Laboratory · RZ-7, SB, Raja Puri, Main Road, opposite SBI Bank",
+        "name": "Dr Seth’s path lab, Divyaprastha hospital,",
+        "information": "Medical laboratory · Main Road Block A, opp. Bagh Wala School",
+        "eligibility": "Testing for all patients·",
+        "mode": "Private"
+    },
+    {
+        "name": "Aakash Path Lab, Sector 3, Dwarka",
+        "information": "Medical laboratory · Aakash Healthcare & Super speciality Hospital, Rd Number 201",
         "eligibility": "Testing for all patients·",
         "mode": "Private"
     },
@@ -60,10 +66,16 @@
         "mode": "Private"
     },
     {
-        "name": "Divya Prastha Hospital",
-        "information": "Hospital · Main Road Block A, opp. Bagh Wala School · 011 2536 5960",
+        "name": "Base Hospital Delhi Cantt",
+        "information": "Military hospital · Hospital Rd",
         "eligibility": "Testing for all patients·",
-        "mode": "Private"
+        "mode": "Government"
+    },
+    {
+        "name": "ICMR-National Institute of Malaria Research",
+        "information": "Research institute011 2530 7103",
+        "eligibility": "Testing for all patients·",
+        "mode": "Government"
     },
     {
         "name": "Employees' State Insurance Model Hospital",
@@ -72,28 +84,16 @@
         "mode": "Government"
     },
     {
-        "name": "Base Hospital Delhi Cantt",
-        "information": "Military hospital · Hospital Rd",
-        "eligibility": "Testing for all patients·",
-        "mode": "Government"
-    },
-    {
-        "name": "Prognosis Laboratories",
-        "information": "Diagnostic center · 515, 516, behind Gupta Properties, Close to Welcome Hotel (ITC · 081301 92290",
-        "eligibility": "Testing for all patients·",
-        "mode": "Private"
-    },
-    {
         "name": "Dr Lalchandani Labs - Punjabi Bagh",
         "information": "Diagnostic center · 19 C, Club Rd · 080106 89689",
         "eligibility": "Testing for all patients·",
         "mode": "Private"
     },
     {
-        "name": "ICMR-National Institute of Malaria Research",
-        "information": "Research institute011 2530 7103",
+        "name": "Prognosis Laboratories",
+        "information": "Diagnostic center · 515, 516, behind Gupta Properties, Close to Welcome Hotel (ITC · 081301 92290",
         "eligibility": "Testing for all patients·",
-        "mode": "Government"
+        "mode": "Private"
     },
     {
         "name": "Venkateshwar Hospital",

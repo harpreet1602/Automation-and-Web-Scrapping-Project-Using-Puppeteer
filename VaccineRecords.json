@@ -1,0 +1,778 @@
+[
+    {
+        "Location": "India",
+        "Doses given": "16.5Cr"
+    },
+    {
+        "Location": "China (Mainland)",
+        "Doses given": "30.8Cr"
+    },
+    {
+        "Location": "United States",
+        "Doses given": "25.5Cr"
+    },
+    {
+        "Location": "United Kingdom",
+        "Doses given": "5.18Cr"
+    },
+    {
+        "Location": "Brazil",
+        "Doses given": "4.69Cr"
+    },
+    {
+        "Location": "Germany",
+        "Doses given": "3.44Cr"
+    },
+    {
+        "Location": "Turkey",
+        "Doses given": "2.47Cr"
+    },
+    {
+        "Location": "France",
+        "Doses given": "2.46Cr"
+    },
+    {
+        "Location": "Italy",
+        "Doses given": "2.32Cr"
+    },
+    {
+        "Location": "Indonesia",
+        "Doses given": "2.17Cr"
+    },
+    {
+        "Location": "Russia",
+        "Doses given": "2.13Cr"
+    },
+    {
+        "Location": "Mexico",
+        "Doses given": "2.05Cr"
+    },
+    {
+        "Location": "Spain",
+        "Doses given": "1.9Cr"
+    },
+    {
+        "Location": "Chile",
+        "Doses given": "1.55Cr"
+    },
+    {
+        "Location": "Canada",
+        "Doses given": "1.53Cr"
+    },
+    {
+        "Location": "Poland",
+        "Doses given": "1.34Cr"
+    },
+    {
+        "Location": "United Arab Emirates",
+        "Doses given": "1.1Cr"
+    },
+    {
+        "Location": "Israel",
+        "Doses given": "1.05Cr"
+    },
+    {
+        "Location": "Saudi Arabia",
+        "Doses given": "1.02Cr"
+    },
+    {
+        "Location": "Morocco",
+        "Doses given": "97.9L"
+    },
+    {
+        "Location": "Bangladesh",
+        "Doses given": "91.3L"
+    },
+    {
+        "Location": "Argentina",
+        "Doses given": "88.2L"
+    },
+    {
+        "Location": "Hungary",
+        "Doses given": "66.1L"
+    },
+    {
+        "Location": "Romania",
+        "Doses given": "56.9L"
+    },
+    {
+        "Location": "Netherlands",
+        "Doses given": "56.5L"
+    },
+    {
+        "Location": "Colombia",
+        "Doses given": "52.2L"
+    },
+    {
+        "Location": "Belgium",
+        "Doses given": "44.9L"
+    },
+    {
+        "Location": "Japan",
+        "Doses given": "42L"
+    },
+    {
+        "Location": "South Korea",
+        "Doses given": "41.4L"
+    },
+    {
+        "Location": "Portugal",
+        "Doses given": "37.8L"
+    },
+    {
+        "Location": "Serbia",
+        "Doses given": "37.6L"
+    },
+    {
+        "Location": "Sweden",
+        "Doses given": "36.8L"
+    },
+    {
+        "Location": "Czechia",
+        "Doses given": "36L"
+    },
+    {
+        "Location": "Austria",
+        "Doses given": "35.6L"
+    },
+    {
+        "Location": "Greece",
+        "Doses given": "35.4L"
+    },
+    {
+        "Location": "Pakistan",
+        "Doses given": "33.2L"
+    },
+    {
+        "Location": "Switzerland",
+        "Doses given": "30L"
+    },
+    {
+        "Location": "Cambodia",
+        "Doses given": "27.7L"
+    },
+    {
+        "Location": "Australia",
+        "Doses given": "25.5L"
+    },
+    {
+        "Location": "Nepal",
+        "Doses given": "24.5L"
+    },
+    {
+        "Location": "Philippines",
+        "Doses given": "23.1L"
+    },
+    {
+        "Location": "Dominican Republic",
+        "Doses given": "22.6L"
+    },
+    {
+        "Location": "Denmark",
+        "Doses given": "22.6L"
+    },
+    {
+        "Location": "Singapore",
+        "Doses given": "22.1L"
+    },
+    {
+        "Location": "Kazakhstan",
+        "Doses given": "21.6L"
+    },
+    {
+        "Location": "Finland",
+        "Doses given": "21.1L"
+    },
+    {
+        "Location": "Mongolia",
+        "Doses given": "20.9L"
+    },
+    {
+        "Location": "Uruguay",
+        "Doses given": "20L"
+    },
+    {
+        "Location": "Peru",
+        "Doses given": "19.4L"
+    },
+    {
+        "Location": "Norway",
+        "Doses given": "19.2L"
+    },
+    {
+        "Location": "Slovakia",
+        "Doses given": "17.7L"
+    },
+    {
+        "Location": "Qatar",
+        "Doses given": "17.6L"
+    },
+    {
+        "Location": "Ireland",
+        "Doses given": "17.5L"
+    },
+    {
+        "Location": "Thailand",
+        "Doses given": "17.3L"
+    },
+    {
+        "Location": "Malaysia",
+        "Doses given": "17.1L"
+    },
+    {
+        "Location": "Hong Kong",
+        "Doses given": "16.6L"
+    },
+    {
+        "Location": "Azerbaijan",
+        "Doses given": "16.3L"
+    },
+    {
+        "Location": "Iran",
+        "Doses given": "14.9L"
+    },
+    {
+        "Location": "Kuwait",
+        "Doses given": "14.4L"
+    },
+    {
+        "Location": "Bahrain",
+        "Doses given": "13.5L"
+    },
+    {
+        "Location": "Nigeria",
+        "Doses given": "12.9L"
+    },
+    {
+        "Location": "Ethiopia",
+        "Doses given": "12.2L"
+    },
+    {
+        "Location": "Ecuador",
+        "Doses given": "11.8L"
+    },
+    {
+        "Location": "Lithuania",
+        "Doses given": "11.4L"
+    },
+    {
+        "Location": "El Salvador",
+        "Doses given": "11.1L"
+    },
+    {
+        "Location": "Sri Lanka",
+        "Doses given": "11.1L"
+    },
+    {
+        "Location": "Jordan",
+        "Doses given": "10.9L"
+    },
+    {
+        "Location": "Croatia",
+        "Doses given": "10.8L"
+    },
+    {
+        "Location": "Myanmar (Burma)",
+        "Doses given": "10.4L"
+    },
+    {
+        "Location": "Costa Rica",
+        "Doses given": "9.5L"
+    },
+    {
+        "Location": "Bulgaria",
+        "Doses given": "9.22L"
+    },
+    {
+        "Location": "Taiwan",
+        "Doses given": "9.1L"
+    },
+    {
+        "Location": "Bolivia",
+        "Doses given": "8.79L"
+    },
+    {
+        "Location": "Ukraine",
+        "Doses given": "8.58L"
+    },
+    {
+        "Location": "Kenya",
+        "Doses given": "8.53L"
+    },
+    {
+        "Location": "Ghana",
+        "Doses given": "8.5L"
+    },
+    {
+        "Location": "Panama",
+        "Doses given": "7.59L"
+    },
+    {
+        "Location": "Vietnam",
+        "Doses given": "7.48L"
+    },
+    {
+        "Location": "Slovenia",
+        "Doses given": "7.23L"
+    },
+    {
+        "Location": "Egypt",
+        "Doses given": "6.6L"
+    },
+    {
+        "Location": "Zimbabwe",
+        "Doses given": "6.41L"
+    },
+    {
+        "Location": "Uzbekistan",
+        "Doses given": "6L"
+    },
+    {
+        "Location": "Albania",
+        "Doses given": "5.86L"
+    },
+    {
+        "Location": "Estonia",
+        "Doses given": "5.24L"
+    },
+    {
+        "Location": "Lebanon",
+        "Doses given": "5.1L"
+    },
+    {
+        "Location": "Bhutan",
+        "Doses given": "4.81L"
+    },
+    {
+        "Location": "Tunisia",
+        "Doses given": "4.58L"
+    },
+    {
+        "Location": "Angola",
+        "Doses given": "4.56L"
+    },
+    {
+        "Location": "Maldives",
+        "Doses given": "4.27L"
+    },
+    {
+        "Location": "Senegal",
+        "Doses given": "4.23L"
+    },
+    {
+        "Location": "Uganda",
+        "Doses given": "3.87L"
+    },
+    {
+        "Location": "South Africa",
+        "Doses given": "3.81L"
+    },
+    {
+        "Location": "Latvia",
+        "Doses given": "3.78L"
+    },
+    {
+        "Location": "Malta",
+        "Doses given": "3.59L"
+    },
+    {
+        "Location": "Rwanda",
+        "Doses given": "3.5L"
+    },
+    {
+        "Location": "Belarus",
+        "Doses given": "3.28L"
+    },
+    {
+        "Location": "Oman",
+        "Doses given": "3.26L"
+    },
+    {
+        "Location": "Malawi",
+        "Doses given": "3.12L"
+    },
+    {
+        "Location": "New Zealand",
+        "Doses given": "3.05L"
+    },
+    {
+        "Location": "Iraq",
+        "Doses given": "2.98L"
+    },
+    {
+        "Location": "Cyprus",
+        "Doses given": "2.88L"
+    },
+    {
+        "Location": "Venezuela",
+        "Doses given": "2.5L"
+    },
+    {
+        "Location": "Afghanistan",
+        "Doses given": "2.4L"
+    },
+    {
+        "Location": "Luxembourg",
+        "Doses given": "2.27L"
+    },
+    {
+        "Location": "Côte d'Ivoire",
+        "Doses given": "2.15L"
+    },
+    {
+        "Location": "Palestine",
+        "Doses given": "2.14L"
+    },
+    {
+        "Location": "Guatemala",
+        "Doses given": "1.91L"
+    },
+    {
+        "Location": "Laos",
+        "Doses given": "1.84L"
+    },
+    {
+        "Location": "Iceland",
+        "Doses given": "1.84L"
+    },
+    {
+        "Location": "Moldova",
+        "Doses given": "1.83L"
+    },
+    {
+        "Location": "Guinea",
+        "Doses given": "1.7L"
+    },
+    {
+        "Location": "Togo",
+        "Doses given": "1.6L"
+    },
+    {
+        "Location": "Guyana",
+        "Doses given": "1.53L"
+    },
+    {
+        "Location": "Paraguay",
+        "Doses given": "1.43L"
+    },
+    {
+        "Location": "Sudan",
+        "Doses given": "1.4L"
+    },
+    {
+        "Location": "Jamaica",
+        "Doses given": "1.35L"
+    },
+    {
+        "Location": "Nicaragua",
+        "Doses given": "1.35L"
+    },
+    {
+        "Location": "Seychelles",
+        "Doses given": "1.28L"
+    },
+    {
+        "Location": "Somalia",
+        "Doses given": "1.18L"
+    },
+    {
+        "Location": "Mauritius",
+        "Doses given": "1.17L"
+    },
+    {
+        "Location": "Northern Cyprus",
+        "Doses given": "1.09L"
+    },
+    {
+        "Location": "Curaçao",
+        "Doses given": "1.07L"
+    },
+    {
+        "Location": "Bosnia and Herzegovina",
+        "Doses given": "1.06L"
+    },
+    {
+        "Location": "Macao",
+        "Doses given": "1.06L"
+    },
+    {
+        "Location": "Montenegro",
+        "Doses given": "94,291"
+    },
+    {
+        "Location": "Jersey",
+        "Doses given": "88,404"
+    },
+    {
+        "Location": "Suriname",
+        "Doses given": "87,524"
+    },
+    {
+        "Location": "Aruba",
+        "Doses given": "80,258"
+    },
+    {
+        "Location": "Equatorial Guinea",
+        "Doses given": "75,518"
+    },
+    {
+        "Location": "Barbados",
+        "Doses given": "75,296"
+    },
+    {
+        "Location": "Isle of Man",
+        "Doses given": "75,013"
+    },
+    {
+        "Location": "Algeria",
+        "Doses given": "75,000"
+    },
+    {
+        "Location": "North Macedonia",
+        "Doses given": "74,076"
+    },
+    {
+        "Location": "Gibraltar",
+        "Doses given": "73,476"
+    },
+    {
+        "Location": "Cayman Islands",
+        "Doses given": "69,772"
+    },
+    {
+        "Location": "Zambia",
+        "Doses given": "64,011"
+    },
+    {
+        "Location": "Sierra Leone",
+        "Doses given": "62,798"
+    },
+    {
+        "Location": "Trinidad and Tobago",
+        "Doses given": "59,586"
+    },
+    {
+        "Location": "Bermuda",
+        "Doses given": "58,193"
+    },
+    {
+        "Location": "Honduras",
+        "Doses given": "57,639"
+    },
+    {
+        "Location": "Mozambique",
+        "Doses given": "57,305"
+    },
+    {
+        "Location": "Fiji",
+        "Doses given": "56,000"
+    },
+    {
+        "Location": "Georgia",
+        "Doses given": "54,687"
+    },
+    {
+        "Location": "Mali",
+        "Doses given": "49,903"
+    },
+    {
+        "Location": "Botswana",
+        "Doses given": "49,882"
+    },
+    {
+        "Location": "Belize",
+        "Doses given": "46,659"
+    },
+    {
+        "Location": "Guernsey",
+        "Doses given": "46,587"
+    },
+    {
+        "Location": "Federated States of Micronesia",
+        "Doses given": "37,135"
+    },
+    {
+        "Location": "Namibia",
+        "Doses given": "36,417"
+    },
+    {
+        "Location": "Eswatini",
+        "Doses given": "34,897"
+    },
+    {
+        "Location": "San Marino",
+        "Doses given": "31,886"
+    },
+    {
+        "Location": "Antigua and Barbuda",
+        "Doses given": "29,754"
+    },
+    {
+        "Location": "Andorra",
+        "Doses given": "28,881"
+    },
+    {
+        "Location": "Marshall Islands",
+        "Doses given": "28,356"
+    },
+    {
+        "Location": "Kyrgyzstan",
+        "Doses given": "27,858"
+    },
+    {
+        "Location": "Dominica",
+        "Doses given": "27,821"
+    },
+    {
+        "Location": "The Bahamas",
+        "Doses given": "25,692"
+    },
+    {
+        "Location": "Turks and Caicos Islands",
+        "Doses given": "25,039"
+    },
+    {
+        "Location": "Saint Lucia",
+        "Doses given": "24,985"
+    },
+    {
+        "Location": "Monaco",
+        "Doses given": "24,390"
+    },
+    {
+        "Location": "Kosovo",
+        "Doses given": "22,096"
+    },
+    {
+        "Location": "Faroe Islands",
+        "Doses given": "21,128"
+    },
+    {
+        "Location": "The Gambia",
+        "Doses given": "20,922"
+    },
+    {
+        "Location": "Grenada",
+        "Doses given": "17,000"
+    },
+    {
+        "Location": "Lesotho",
+        "Doses given": "16,000"
+    },
+    {
+        "Location": "Saint Vincent and the Grenadines",
+        "Doses given": "14,526"
+    },
+    {
+        "Location": "Republic of the Congo",
+        "Doses given": "14,297"
+    },
+    {
+        "Location": "Greenland",
+        "Doses given": "14,278"
+    },
+    {
+        "Location": "Liechtenstein",
+        "Doses given": "13,829"
+    },
+    {
+        "Location": "Comoros",
+        "Doses given": "13,440"
+    },
+    {
+        "Location": "Saint Kitts and Nevis",
+        "Doses given": "13,070"
+    },
+    {
+        "Location": "Cameroon",
+        "Doses given": "11,000"
+    },
+    {
+        "Location": "Brunei",
+        "Doses given": "10,715"
+    },
+    {
+        "Location": "Djibouti",
+        "Doses given": "10,246"
+    },
+    {
+        "Location": "São Tomé and Príncipe",
+        "Doses given": "9,724"
+    },
+    {
+        "Location": "Gabon",
+        "Doses given": "8,897"
+    },
+    {
+        "Location": "Mauritania",
+        "Doses given": "7,038"
+    },
+    {
+        "Location": "Anguilla",
+        "Doses given": "6,898"
+    },
+    {
+        "Location": "Samoa",
+        "Doses given": "5,880"
+    },
+    {
+        "Location": "Tonga",
+        "Doses given": "5,367"
+    },
+    {
+        "Location": "Solomon Islands",
+        "Doses given": "4,890"
+    },
+    {
+        "Location": "Saint Helena, Ascension and Tristan da Cunha",
+        "Doses given": "4,572"
+    },
+    {
+        "Location": "Falkland Islands (Islas Malvinas)",
+        "Doses given": "4,407"
+    },
+    {
+        "Location": "Palau",
+        "Doses given": "3,109"
+    },
+    {
+        "Location": "Papua New Guinea",
+        "Doses given": "2,900"
+    },
+    {
+        "Location": "Timor-Leste",
+        "Doses given": "2,629"
+    },
+    {
+        "Location": "Syria",
+        "Doses given": "2,500"
+    },
+    {
+        "Location": "Cape Verde",
+        "Doses given": "2,184"
+    },
+    {
+        "Location": "Montserrat",
+        "Doses given": "1,909"
+    },
+    {
+        "Location": "Democratic Republic of the Congo",
+        "Doses given": "1,700"
+    },
+    {
+        "Location": "South Sudan",
+        "Doses given": "947"
+    },
+    {
+        "Location": "Libya",
+        "Doses given": "750"
+    },
+    {
+        "Location": "Nauru",
+        "Doses given": "700"
+    },
+    {
+        "Location": "Armenia",
+        "Doses given": "565"
+    }
+]
