@@ -311,7 +311,7 @@ async function vaccineRecords(tab, word) {
     }
 }
 async function covidResources(tab, boxname, i) {
-    await tab.waitForSelector(".text-2xl.font-semibold.items-center.py-6", { visible: true });
+   // await tab.waitForSelector(".text-2xl.font-semibold.items-center.py-6", { visible: true });
     let boxes = await tab.$$(".text-2xl.font-semibold.items-center.py-6");
     await tab.evaluate(function (ele) {
         ele.click();
